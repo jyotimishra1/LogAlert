@@ -25,7 +25,7 @@ public class LogInfoAlertApplication implements CommandLineRunner {
 	}
 
 	@Override
-	public void run(String... args) throws IOException {
+	public void run(String... args) {
 		try {
 			// Read the file and calculate the event duration and save in HSQLDB
 			logFileProcessorService.readFileAndUpdateDb("FILE.DAT");
