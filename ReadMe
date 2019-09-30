@@ -1,0 +1,18 @@
+## Input file(LogFile:FILE.DAT)
+1) Input file is resources\FILE.DAT. Keep it inside the resource directory
+
+##application.properties Changes
+2) Change the log location(logging.file) in application.properties according to your system directory
+
+## HSQLDB configuration
+3) Download the HSQLDB 2.5 and configure(https://www.tutorialspoint.com/hsqldb/hsqldb_installation.htm)
+4) configure HSQLDB according to the given configuration in application.properties(HSQLDB configuration)
+5) Start the HSQLDB by below command
+java -classpath lib/hsqldb.jar org.hsqldb.server.Server --database.0 file:hsqldb/demodb --dbname.0 testdb
+
+## Main class execution
+6)Run main class LogInfoAlertApplication
+
+## Check log alter Entry in HSQLDB
+7)Check the logs info Entry in table LOGALERT
+

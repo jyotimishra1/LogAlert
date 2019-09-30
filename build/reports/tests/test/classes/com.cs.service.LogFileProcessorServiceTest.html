@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.cs.service.LogFileProcessorServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.cs.service.LogFileProcessorServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.cs.service.html">com.cs.service</a> &gt; LogFileProcessorServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.198s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">readFileAndUpdateDbTest</td>
+<td class="success">0.198s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>20:46:08.744 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.cs.service.LogFileProcessorServiceTest]
+20:46:08.758 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:46:08.766 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:46:08.797 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.cs.service.LogFileProcessorServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:46:08.828 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cs.service.LogFileProcessorServiceTest], using SpringBootContextLoader
+20:46:08.844 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.cs.service.LogFileProcessorServiceTest]: class path resource [com/cs/service/LogFileProcessorServiceTest-context.xml] does not exist
+20:46:08.844 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.cs.service.LogFileProcessorServiceTest]: class path resource [com/cs/service/LogFileProcessorServiceTestContext.groovy] does not exist
+20:46:08.844 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.cs.service.LogFileProcessorServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:46:08.844 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cs.service.LogFileProcessorServiceTest]: LogFileProcessorServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:46:08.938 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.cs.service.LogFileProcessorServiceTest]
+20:46:09.094 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Jyoti\Desktop\LogInfoAlert\build\classes\java\main\com\cs\LogInfoAlertApplication.class]
+20:46:09.094 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cs.LogInfoAlertApplication for test class com.cs.service.LogFileProcessorServiceTest
+20:46:09.281 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.cs.service.LogFileProcessorServiceTest]: using defaults.
+20:46:09.281 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+20:46:09.297 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+20:46:09.313 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5a6456b9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@54471762, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@9f3796a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40e7526d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@384e0556, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@54dee93a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@46f4e2e2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3c7ab46b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@74d66207, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5762d29e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@36e0d962]
+20:46:09.328 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cs.service.LogFileProcessorServiceTest]
+20:46:09.328 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cs.service.LogFileProcessorServiceTest]
+20:46:09.328 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cs.service.LogFileProcessorServiceTest]
+20:46:09.328 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cs.service.LogFileProcessorServiceTest]
+20:46:09.344 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3cbe6b5c testClass = LogFileProcessorServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7e2c44d4 testClass = LogFileProcessorServiceTest, locations = '{}', classes = '{class com.cs.LogInfoAlertApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@203aeea9, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4bd09b82, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@42f2b41a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4e7eea75], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+20:46:09.344 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cs.service.LogFileProcessorServiceTest]
+20:46:09.344 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cs.service.LogFileProcessorServiceTest]
+20:46:09.344 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@3cbe6b5c testClass = LogFileProcessorServiceTest, testInstance = com.cs.service.LogFileProcessorServiceTest@495d97a4, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7e2c44d4 testClass = LogFileProcessorServiceTest, locations = '{}', classes = '{class com.cs.LogInfoAlertApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@203aeea9, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4bd09b82, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@42f2b41a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4e7eea75], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+20:46:09.391 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.8.RELEASE)
+
+2019-Sep-30 20:46:09.997 INFO  [Test worker] c.c.s.LogFileProcessorServiceTest - Starting LogFileProcessorServiceTest on LAPTOP-GNI3VBGM with PID 11048 (started by Jyoti in C:\Users\Jyoti\Desktop\LogInfoAlert)
+2019-Sep-30 20:46:09.998 DEBUG [Test worker] c.c.s.LogFileProcessorServiceTest - Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-Sep-30 20:46:09.999 INFO  [Test worker] c.c.s.LogFileProcessorServiceTest - No active profile set, falling back to default profiles: default
+2019-Sep-30 20:46:16.158 INFO  [Test worker] c.c.s.LogFileProcessorServiceTest - Started LogFileProcessorServiceTest in 6.767 seconds (JVM running for 9.504)
+2019-Sep-30 20:46:16.173 DEBUG [Test worker] c.c.a.LoggingAspect - Starting...! Method Name - readFile
+2019-Sep-30 20:46:16.517 DEBUG [Test worker] c.c.s.LogManagerServiceImp - Number of records in LogList are =4
+2019-Sep-30 20:46:16.517 DEBUG [Test worker] c.c.a.LoggingAspect - Starting...! Method Name - writeCompletedLogInfoToDb
+2019-Sep-30 20:46:16.684 DEBUG [Test worker] c.c.a.LoggingAspect - Exiting...! Method Name - writeCompletedLogInfoToDb Execution Time in Milliseconds:&gt; 167
+2019-Sep-30 20:46:16.685 DEBUG [Test worker] c.c.a.LoggingAspect - Starting...! Method Name - writeUncompletedLogInfoToDb
+2019-Sep-30 20:46:16.976 DEBUG [Test worker] c.c.a.LoggingAspect - Exiting...! Method Name - writeUncompletedLogInfoToDb Execution Time in Milliseconds:&gt; 291
+2019-Sep-30 20:46:16.991 ERROR [Test worker] c.c.d.FileReaderImpl - Invalid Record found: {&quot;ids&quot;:&quot;scsmbstgrbh&quot;, &quot;state&quot;:&quot;FINISHED&quot;, &quot;timestamp&quot;:1491377495216}
+2019-Sep-30 20:46:16.991 DEBUG [Test worker] c.c.s.LogManagerServiceImp - Number of records in LogList are =4
+2019-Sep-30 20:46:16.991 DEBUG [Test worker] c.c.a.LoggingAspect - Starting...! Method Name - writeCompletedLogInfoToDb
+2019-Sep-30 20:46:16.991 DEBUG [Test worker] c.c.a.LoggingAspect - Exiting...! Method Name - writeCompletedLogInfoToDb Execution Time in Milliseconds:&gt; 0
+2019-Sep-30 20:46:16.991 DEBUG [Test worker] c.c.s.LogManagerServiceImp - Number of records in LogList are =1
+2019-Sep-30 20:46:16.991 DEBUG [Test worker] c.c.a.LoggingAspect - Starting...! Method Name - writeUncompletedLogInfoToDb
+2019-Sep-30 20:46:17.022 DEBUG [Test worker] c.c.a.LoggingAspect - Exiting...! Method Name - writeUncompletedLogInfoToDb Execution Time in Milliseconds:&gt; 31
+2019-Sep-30 20:46:17.022 DEBUG [Test worker] c.c.a.LoggingAspect - Exiting...! Method Name - readFile Execution Time in Milliseconds:&gt; 849
+2019-Sep-30 20:46:17.147 DEBUG [Test worker] c.c.a.LoggingAspect - Starting...! Method Name - readFile
+2019-Sep-30 20:46:17.147 DEBUG [Test worker] c.c.s.LogManagerServiceImp - Number of records in LogList are =4
+2019-Sep-30 20:46:17.147 DEBUG [Test worker] c.c.a.LoggingAspect - Starting...! Method Name - writeCompletedLogInfoToDb
+2019-Sep-30 20:46:17.163 DEBUG [Test worker] c.c.a.LoggingAspect - Exiting...! Method Name - writeCompletedLogInfoToDb Execution Time in Milliseconds:&gt; 16
+2019-Sep-30 20:46:17.163 DEBUG [Test worker] c.c.a.LoggingAspect - Starting...! Method Name - writeUncompletedLogInfoToDb
+2019-Sep-30 20:46:17.179 DEBUG [Test worker] c.c.a.LoggingAspect - Exiting...! Method Name - writeUncompletedLogInfoToDb Execution Time in Milliseconds:&gt; 16
+2019-Sep-30 20:46:17.179 DEBUG [Test worker] c.c.s.LogManagerServiceImp - Number of records in LogList are =2
+2019-Sep-30 20:46:17.179 DEBUG [Test worker] c.c.a.LoggingAspect - Starting...! Method Name - writeUncompletedLogInfoToDb
+2019-Sep-30 20:46:17.210 DEBUG [Test worker] c.c.a.LoggingAspect - Exiting...! Method Name - writeUncompletedLogInfoToDb Execution Time in Milliseconds:&gt; 31
+2019-Sep-30 20:46:17.210 DEBUG [Test worker] c.c.a.LoggingAspect - Exiting...! Method Name - readFile Execution Time in Milliseconds:&gt; 63
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Sep 30, 2019 8:46:17 PM</p>
+</div>
+</div>
+</body>
+</html>
