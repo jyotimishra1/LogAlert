@@ -10,12 +10,15 @@ import com.cs.service.LogManagerService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 @Repository
 public class FileReaderImpl implements FileReader {
     @Autowired
     LogManagerService logManagerService;
+    @Value("${log.list.size}")
+    private int logListSize;
     private static final Logger logger = LoggerFactory.getLogger(FileReaderImpl.class);
     private int recordProcesses = 0;
 
@@ -38,7 +41,7 @@ public class FileReaderImpl implements FileReader {
                     logger.error("Invalid Record found: " + line);
                 }
                 //Process data in chuck(batch of 1000)
-                if (logInfoList.size() == 4) {
+                if (logInfoList.size() == logListSize) {
                     logManagerService.logInfoProcessor(logInfoList);
                     logInfoList = new ArrayList<>();
                 }

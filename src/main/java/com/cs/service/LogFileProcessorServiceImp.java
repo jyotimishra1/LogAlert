@@ -27,6 +27,7 @@ public class LogFileProcessorServiceImp implements LogFileProcessorService {
 				ClassLoader classLoader = getClass().getClassLoader();
 				File file = new File(classLoader.getResource(fileName).getFile());
 				recordProcesses = fileReader.readFile(file);
+				logger.debug("Total record processed : "+recordProcesses);
 			} catch (IOException e) {
 				logger.debug(Arrays.toString(e.getStackTrace()));
 			}

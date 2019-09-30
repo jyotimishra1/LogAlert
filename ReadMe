@@ -3,6 +3,7 @@
 
 ##application.properties Changes
 2) Change the log location(logging.file) in application.properties according to your system directory
+3) Change the no of log processing size log.list.size
 
 ## HSQLDB configuration
 3) Download the HSQLDB 2.5 and configure(https://www.tutorialspoint.com/hsqldb/hsqldb_installation.htm)
